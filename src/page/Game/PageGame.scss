@@ -1,0 +1,22 @@
+@import '../../styles/main.scss';
+
+.tile-container {
+  @include wrapper-glassEffect();
+  margin: 0 auto;
+  padding: 15px;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(15px * 3 + 60px * 4 + 15px * 2);
+}
+
+.stats {
+  margin: 20px auto;
+  font-size: 4rem;
+  max-width: 400px;
+  text-align: start;
+  padding-left: 30px;
+  color: $text-color-light;
+  font-weight: 900;
+}

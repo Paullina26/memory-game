@@ -1,0 +1,51 @@
+@import 'variables';
+
+html {
+  font-family: 'Cute Font', sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Cute Font', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+a,
+button {
+  letter-spacing: 5px;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 2.9rem;
+  color: #252525;
+  letter-spacing: 1px;
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(120, 195, 184, 1) 30%,
+  //   rgba(195, 207, 183, 1) 70%,
+  //   rgba(254, 217, 183, 1) 100%
+  // );
+  background-color: #252525;
+  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

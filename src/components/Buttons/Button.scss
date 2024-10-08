@@ -1,0 +1,21 @@
+@import '../../styles/main.scss';
+
+.button-play {
+  @include button-default-big();
+}
+
+.button-instruction {
+  @include button-default-big();
+}
+
+.button-home {
+  @include button-default-big();
+  background: radial-gradient(circle at 50% 50%, #ffffff, #9a9a9a);
+  font-size: 3.2rem;
+  font-weight: 200;
+  width: 90px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  padding: 5px;
+}

@@ -1,0 +1,8 @@
+@import '../../styles/main.scss';
+
+.WrapperHomePage {
+  @include wrapper-glassEffect();
+  margin-top: 30px;
+  padding: 20px;
+  display: inline-block;
+}

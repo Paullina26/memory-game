@@ -1,0 +1,36 @@
+@import '../../styles/main.scss';
+
+.wrapper-statistic {
+  @include wrapper-glassEffect();
+  margin-top: 30px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.wrapper-element-statistic {
+  // margin-top: 30px;
+  // padding: 20px;
+  border-radius: 20px;
+}
+
+.game-history-item {
+  border: 2px solid #252525;
+  box-shadow: -3px -3px 5px rgba(86, 147, 154, 0.2),
+    3px 3px 5px rgba(69, 88, 121, 0.3),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at 50% 50%,
+    $tertiary-color,
+    $primary-color
+  );
+  margin-top: 20px;
+  padding: 10px;
+  display: inline-block;
+
+  p {
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
