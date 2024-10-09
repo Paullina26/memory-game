@@ -3,11 +3,13 @@ import '../../components/Wrappers/WrapperGlassEffect/WrapperGlassEffect.scss';
 import './PageInstruction.scss';
 
 import ButtonBig from '../../components/Buttons/ButtonBig/ButtonBig';
+import HomeButton from '../../components/Buttons/HomeButton/HomeButton';
 
 const PageInstruction: React.FC = () => {
   return (
-    <div>
+    <div className='wrapperPageInstruction'>
       <div className='wrapperInstruction'>
+        <HomeButton />
         <div>
           <h4> Goal of the Game: </h4>
           <p>

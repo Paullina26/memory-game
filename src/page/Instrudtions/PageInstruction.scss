@@ -1,12 +1,16 @@
 @import '../../styles/main.scss';
 
+.wrapperPageInstruction {
+  width: clamp(280px, 50vw, 600px);
+  margin: 20px auto;
+}
+
 .wrapperInstruction {
   @include wrapper-glassEffect();
-  width: clamp(45ch, 50%, 75ch);
   margin: 20px auto;
   text-align: start;
   padding: 20px;
-
+  width: 100%;
   h4 {
     font-size: 4rem;
   }

@@ -3,6 +3,7 @@ import { useGameStore } from '../../store/gameStore';
 import Tile from '../../components/Tile/Tile';
 import './PageGame.scss';
 import NextGame from '../../components/NextGame/NextGame';
+import HomeButton from '../../components/Buttons/HomeButton/HomeButton';
 
 const PageGame: React.FC = () => {
   const {
@@ -59,6 +60,7 @@ const PageGame: React.FC = () => {
 
   return (
     <div className='game-page'>
+      <HomeButton />
       <div className='stats'>
         <p>Attempts: {attempts}</p>
         <p>Duration: {timeElapsed}s</p>

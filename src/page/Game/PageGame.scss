@@ -20,3 +20,9 @@
   color: $text-color-light;
   font-weight: 900;
 }
+
+.game-page {
+  width: clamp(280px, 50vw, 600px);
+  margin: 20px auto;
+  position: relative;
+}

@@ -1,17 +1,12 @@
 import '../Button.scss';
-import { useAppStore, Page } from '../../../store/appStore';
+import { useAppStore } from '../../../store/appStore';
 
-interface HomeButtonProps {
-  buttonText: string;
-  targetPage: Page;
-}
-
-const HomeButton: React.FC<HomeButtonProps> = ({ buttonText, targetPage }) => {
+const HomeButton: React.FC = () => {
   const setCurrentPage = useAppStore(state => state.setCurrentPage);
 
   return (
-    <button onClick={() => setCurrentPage(targetPage)} className='button-home'>
-      {buttonText}
+    <button onClick={() => setCurrentPage('PageHome')} className='button-home'>
+      Home
     </button>
   );
 };

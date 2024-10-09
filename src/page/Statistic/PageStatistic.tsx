@@ -17,7 +17,7 @@ const PageStatistic: React.FC = () => {
   return (
     <div className='wrapper-statistic'>
       <h1 className='title-big'>Statistic</h1>
-      <HomeButton buttonText='🔙' targetPage='PageHome' />
+      <HomeButton />
       <div className='wrapper-element-statistic'>
         {gameHistory.length > 0 ? (
           gameHistory.map((game, index) => (
